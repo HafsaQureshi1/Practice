@@ -1,0 +1,49 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+h1{
+   
+    background-color:rgb(61, 60, 80);
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight:bold;
+}
+
+body{
+    margin: 25px;
+    padding: 15px;
+   
+}
+input[type="submit"]{
+    background-color: rgb(61, 60, 80);
+    color: rgb(245, 235, 235);
+    font-size: 20px;
+    border:none;
+   padding: 10px 20px;
+   cursor: grab;
+   font-weight: bold;
+   width: 100%;
+}
+.container{
+    background-color: rgba(224, 225, 225, 0.663);
+    
+    padding: 25px;
+}
+fieldset{
+    background-color: white;
+}
+input[type="text"],input[type="email"],input[type="number"],textarea,fieldset,select{
+    width: 100%;
+    padding: 12px;
+    border: 1px white;
+    margin: 10px;
+}
+p{
+    font-size: 100%;
+}
